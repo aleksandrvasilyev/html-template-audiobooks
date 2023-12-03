@@ -1,0 +1,146 @@
+ #playervolume {
+     cursor: pointer;
+ }
+
+ .hidden {
+     display: none;
+ }
+
+ a.jp-playlist-item {
+     /* color: #090f25; */
+     color: #ccc;
+     text-decoration: none;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     padding: 8px 20px;
+     display: block;
+     font-size: 15px;
+ }
+
+ a.jp-playlist-item:hover {
+     color: #1aafff;
+ }
+
+ .jp-playlist-current {
+     color: #1aafff !important;
+ }
+
+ .chp__playlist li:nth-child(even) {
+     /* background: #f3f5f7; */
+     background: rgb(68, 68, 68);
+ }
+
+ .chp__playlist li:nth-child(odd) {
+     /* background: #f3f5f7; */
+     background: #5E5E5E;
+ }
+
+ .jp-seek-bar {
+     cursor: pointer;
+ }
+
+ .jp-playlist {
+     height: 156px;
+     overflow: scroll;
+     overflow-x: hidden;
+ }
+
+ /* The Modal (background) */
+ .modal {
+     display: none;
+     /* Hidden by default */
+     position: fixed;
+     /* Stay in place */
+     /* z-index: 5; */
+     /* Sit on top */
+     padding-top: 100px;
+     /* Location of the box */
+     left: 0;
+     top: 0;
+     width: 100%;
+     /* Full width */
+     height: 100%;
+     /* Full height */
+     overflow: auto;
+     /* Enable scroll if needed */
+     background-color: rgb(0, 0, 0);
+     /* Fallback color */
+     background-color: rgba(0, 0, 0, 0.4);
+     /* Black w/ opacity */
+ }
+
+ /* Modal Content */
+ .modal-content {
+     background-color: #444;
+     margin: auto;
+     padding: 20px;
+     border: 1px solid #888;
+     width: 80%;
+ }
+
+ /* The Close Button */
+ .close,
+ .close2 {
+     color: #aaaaaa;
+     float: right;
+     font-size: 28px;
+     font-weight: bold;
+ }
+
+ .close:hover,
+ .close:focus,
+ .close2:hover,
+ .close2:focus {
+     color: #000;
+     text-decoration: none;
+     cursor: pointer;
+ }
+
+ .jp-audio .jp-progress {
+     /*width:293px;*/
+     width: 65%;
+
+
+     height: 6px;
+     margin-left: 10px;
+     background-color: #cbcbcb;
+ }
+
+ .plyr__volume {
+     min-width: 90px;
+ }
+
+ .jp-audio .jp-progress .jp-seek-bar {
+
+     height: 100%;
+     cursor: pointer;
+     overflow: hidden;
+ }
+
+ .jp-audio .jp-progress .jp-seek-bar .jp-play-bar {
+
+     width: 0;
+     height: 100%;
+
+     background-color: #818181;
+ }
+
+ .timesong {
+     float: right;
+     padding-right: 20px;
+ }
+
+ .jp-current-time {
+     font-size: 14px;
+ }
+
+ .jp-current-time,
+ .jp-duration {
+
+     color: #ccc;
+ }
+
+ #stopme:hover {
+     cursor: pointer;
+ }

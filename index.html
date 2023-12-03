@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Книги 📚</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="bs-component mb-3">
+      <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><i class="fa-solid fa-book-open"></i> Аудиокниги</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+            aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav me-auto mb-3 mb-sm-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-layer-group"></i> Жанры</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-user-pen"></i> Авторы</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-list"></i> Серии</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-microphone"></i> Исполнители</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-users"></i> Пользователи</a>
+              </li>
+            </ul>
+
+            <form class="d-flex mb-3 mb-sm-0">
+              <div class="input-group w-auto">
+                <input type="text" class="form-control" placeholder="Поиск..." aria-label="Example input"
+                  aria-describedby="button-addon1" />
+                <button class="btn btn-outline-light me-4" type="button" id="button-addon1"
+                  data-mdb-ripple-color="dark">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+            </form>
+
+            <div class="d-flex text-end mb-3 mb-sm-0">
+              <button type="button" class="btn btn-outline-light me-2">
+                <i class="fa-solid fa-arrow-right-to-bracket"></i> Вход
+              </button>
+              <button type="button" class="btn btn-warning me-2">
+                <i class="fa-solid fa-user-plus"></i> Регистрация
+              </button>
+            </div>
+
+            <div class="d-flex dropdown text-end">
+              <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://github.com/mdo.png" alt="mdo" width="40" height="40" class="rounded-circle" /></a>
+              <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+                <li>
+                  <a class="dropdown-item" href="#"><i class="fa-solid fa-user"></i> Мой профиль</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"><i class="fa-solid fa-gear"></i> Настройки</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right-to-bracket fa-rotate-180"></i>
+                    Выйти</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="sortposts">
+      <div class="row">
+        <div class="col-9 mb-3">
+          <h1 class="h4">Аудиокниги слушать онлайн</h1>
+        </div>
+        <div class="col-3">
+          <span class="float-right" style="float: right">42200 шт.</span>
+        </div>
+      </div>
+
+      <div class="btn-group mb-3" role="group" aria-label="Basic example">
+        <a href="#" class="btn btn-secondary active">Новые</a>
+        <a href="#" class="btn btn-secondary">Популярные</a>
+        <a href="#" class="btn btn-secondary">Лучшие</a>
+        <a href="#" class="btn btn-secondary">Обсуждаемые</a>
+      </div>
+
+      <!-- <div class="me-3" style="line-height:2.5em;">за</div>  -->
+
+      <!-- <ul class="list-group list-group-horizontal mb-3 ml-3">
+        <li class="list-group-item active"><a href="#">Сутки</a></li>
+        <li class="list-group-item"><a href="#">Неделя</a></li>
+        <li class="list-group-item"><a href="#">Месяц</a></li>
+        <li class="list-group-item"><a href="#">Все время</a></li>
+      </ul> -->
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6 post">
+        <div class="card mb-3">
+          <div class="card-header">
+            <div class="row">
+              <div class="col-11">
+                <a href="#">Гарри Поттер и узник Азкабана</a>
+              </div>
+              <div class="col-1">
+                <span class="float-right" style="float: right"><a href="#"><i
+                      class="fa-regular fa-bookmark"></i></a></span>
+              </div>
+            </div>
+          </div>
+          <div class="row g-0">
+            <div class="col-3">
+              <a href="#"><img src="img/gp1.jpeg" style="
+                      width: 160px;
+                      height: 220px;
+                      object-fit: cover;
+                      object-position: 50% 0;
+                    " class="img-fluid img-post" alt="" /></a>
+            </div>
+            <div class="col-9">
+              <div class="card-body">
+                <!-- <h5 class="card-title"><a href="#">Гарри Поттер и узник Азкабана</a></h5> -->
+                <h6 class="card-title">
+                  <i class="fa-solid fa-user-pen"></i>
+                  <a href="#">Джоан Роулинг</a>
+                </h6>
+                <h6>
+                  <i class="fa-solid fa-layer-group"></i>
+                  <a href="#">Фэнтези</a>
+                </h6>
+                <h6>
+                  <i class="fa-solid fa-list"></i>
+                  <a href="#">Гарри Поттер</a> (3)
+                </h6>
+
+                <!-- <h6><small>Оценка <span class="badge bg-primary">7.8</span></small></h6> -->
+
+                <p class="card-text">
+                  После фиаско в колдовстве гигантских размеров Гарри Поттер
+                  сбегает от Дурслеев из Литтл Уинджинга на ночном автобусе в
+                  предчувствии серьезной беды. Но министерство магии занято
+                  ловлей более крупной рыбы – Сириуса Блэка, преданного
+                  последователя Лорда Вольдеморта и печально известного
+                  заключенного...
+                </p>
+                <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+              </div>
+            </div>
+            <div class="card-footer text-muted">
+              <span class="me-3"><i class="fa-solid fa-microphone"></i>
+                <a href="#">Александр Клюквин</a></span>
+              <span class="me-3"><i class="fa-regular fa-star"></i> Оценка
+                <span class="badge bg-primary">7.8</span></span>
+              <span class="me-3"><i class="fa-regular fa-clock"></i> 12:39:38</span>
+              <span class="me-3"><a href="#"><i class="fa-regular fa-comment"></i> 3</a></span>
+              <span class="me-3"><i class="fa-solid fa-eye"></i> 2232</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 post">
+        <div class="card mb-3">
+          <div class="card-header">
+            <div class="row">
+              <div class="col-11">
+                <a href="#">Гарри Поттер и узник Азкабана</a>
+              </div>
+              <div class="col-1">
+                <span class="float-right" style="float: right"><a href="#"><i
+                      class="fa-regular fa-bookmark"></i></a></span>
+              </div>
+            </div>
+          </div>
+          <div class="row g-0">
+            <div class="col-3">
+              <a href="#"><img src="img/gp1.jpeg" style="
+                      width: 160px;
+                      height: 220px;
+                      object-fit: cover;
+                      object-position: 50% 0;
+                    " class="img-fluid img-post" alt="" /></a>
+            </div>
+            <div class="col-9">
+              <div class="card-body">
+                <!-- <h5 class="card-title"><a href="#">Гарри Поттер и узник Азкабана</a></h5> -->
+                <h6 class="card-title">
+                  <i class="fa-solid fa-user-pen"></i>
+                  <a href="#">Джоан Роулинг</a>
+                </h6>
+                <h6>
+                  <i class="fa-solid fa-layer-group"></i>
+                  <a href="#">Фэнтези</a>
+                </h6>
+                <h6>
+                  <i class="fa-solid fa-list"></i>
+                  <a href="#">Гарри Поттер</a> (3)
+                </h6>
+
+                <!-- <h6><small>Оценка <span class="badge bg-primary">7.8</span></small></h6> -->
+
+                <p class="card-text">
+                  После фиаско в колдовстве гигантских размеров Гарри Поттер
+                  сбегает от Дурслеев из Литтл Уинджинга на ночном автобусе в
+                  предчувствии серьезной беды. Но министерство магии занято
+                  ловлей более крупной рыбы – Сириуса Блэка, преданного
+                  последователя Лорда Вольдеморта и печально известного
+                  заключенного...
+                </p>
+                <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+              </div>
+            </div>
+            <div class="card-footer text-muted">
+              <span class="me-3"><i class="fa-solid fa-microphone"></i>
+                <a href="#">Александр Клюквин</a></span>
+              <span class="me-3"><i class="fa-regular fa-star"></i> Оценка
+                <span class="badge bg-primary">7.8</span></span>
+              <span class="me-3"><i class="fa-regular fa-clock"></i> 12:39:38</span>
+              <span class="me-3"><a href="#"><i class="fa-regular fa-comment"></i> 3</a></span>
+              <span class="me-3"><i class="fa-solid fa-eye"></i> 2232</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 d-flex align-items-center justify-content-center">
+        <div class="btn-group mb-3" style="margin: 0 auto" role="group" aria-label="Basic example">
+          <a href="#" class="btn btn-secondary disabled">Назад</a>
+          <a href="#" class="btn btn-secondary active">1</a>
+          <a href="#" class="btn btn-secondary">2</a>
+          <a href="#" class="btn btn-secondary">3</a>
+          <a href="#" class="btn btn-secondary">4</a>
+          <a href="#" class="btn btn-secondary">Вперед</a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-body-dark text-center" style="background-color: rgb(48, 48, 48)">
+      <div class="text-center p-3">
+        © 2023 <a class="text-body" href="/">Аудиокниги</a>
+      </div>
+    </footer>
+  </div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

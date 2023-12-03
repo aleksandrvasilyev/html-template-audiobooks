@@ -1,0 +1,120 @@
+.sortposts a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.sortposts li:hover {
+    background-color: #375a7f;
+}
+
+.sortposts li.active a {
+    color: #fff;
+}
+
+.post {
+    font-size: 0.95em;
+}
+
+.player .controls {
+    display: block;
+    padding: 10px;
+    background-color: rgb(48, 48, 48);
+}
+
+.plyr--audio .plyr__controls {
+    background-color: rgb(48, 48, 48) !important;
+}
+
+.plyr__controls .plyr__controls__item.plyr__time,
+.plyr__controls .plyr__controls__item:first-child,
+button:not(:disabled),
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled) {
+    color: #fff;
+}
+
+.img-fluid .img-post {
+    width: 160px;
+    height: 220px;
+    object-fit: cover;
+    object-position: 50% 0;
+}
+
+.img-post-new-books {
+    width: 62px;
+    height: 90px;
+}
+
+.img_in_another {
+    width: 130px;
+    height: 179px;
+}
+
+.another_block {
+    display: block;
+    text-align: -webkit-center;
+}
+
+.center_block {
+    display: block;
+    text-align: -webkit-center;
+}
+
+.bg-dark2,
+.bg-dark2:focus {
+    background-color: rgb(68, 68, 68);
+}
+
+.leave_comment {
+    border-bottom: 1px solid #606060;
+}
+
+.date,
+.comment_star {
+    color: #ccc;
+}
+
+.comments .like,
+.comments .like a {
+    color: #1da53f;
+}
+
+.comments .dislike,
+.comments .dislike a {
+    color: #de3b3b;
+}
+
+.comment_text {
+    color: #ccc;
+    font-size: 0.95em;
+}
+
+.one_comment_reply {
+    margin-left: 40px;
+}
+
+.comments .fa-thumbs-up:hover,
+.comments .fa-thumbs-down:hover {
+    font-weight: 900;
+}
+
+.new_book_one,
+.new_comment_one {
+    border-bottom: 1px solid #606060;
+}
+
+.sidebar_new_books img {
+    float: left;
+}
+
+.sidebar_new_books {
+    color: #ccc;
+    font-size: 0.95em;
+}
+
+.book_bookmark .fa-bookmark:hover,
+.book_like .fa-thumbs-up:hover,
+.book_dislike .fa-thumbs-down:hover {
+    font-weight: 900;
+}
